@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=u, initial-scale=1.0">
+    <title>LISTAS Y FORMULARIOS</title>
+</head>
+
+<body style="background-color:lightpink">
+    
+    <header>
+        <img src="IMG/INCAP.jpeg" alt="INCAP"
+        height="100" width="150">
+        <h1>LISTAS DE HTML</h1>
+        <h2>MENU NAVEGACION</H2>
+    </header>  
+
+    <nav>
+    <ul>
+        <li type="disc" style="color: black;">HOME</li>
+        <li type="square">PRODUCTOS</li>
+        <li type="circle">SERVICIOS</li>
+        <li>CONTACTO</li>
+    </ul>
+    </nav>
+
+    <section>
+    <!--  -->
+        <form action="datos.php" method="post">
+
+    <!--  -->
+    <fieldset>
+
+    <!--  -->
+        <label>NOMBRE COMPLETO</label>
+        <input type="text" name="NOMBRE" placeholder="Ingrese su nombre" reuired="">
+        <br><br>
+
+    <!--  -->
+        <label>E-MAIL</label>
+        <input type="text" name="E-MAIL" placeholder="Ingrese su E-mail" required="">
+        <br><br>
+
+    <!--  -->
+        <label>CONTRASEÑA</label>
+        <input type="text" name="CONTRASEÑA" placeholder="Ingrese su contraseña" required="">
+        <br><br>
+
+    <!--  -->
+        <label>SELECCIONE SUS HOBBIES:</label>
+        <br>
+            <input type="checkbox" name="CINE"> Cine <br>
+            <input type="checkbox" name="EJERCICIO"> Ejercicio <br>
+            <input type="checkbox" name="LECTURA"> Lectura <br>
+            <input type="checkbox" name="DIBUJO"> Dibujo <br>
+        <br>
+
+    <!--  -->
+        <label>ESTADO CIVIL</label>
+        <br>
+            <input type="checkbox" name="CASADO"> Casado (A) <br>
+            <input type="checkbox" name="SOLTERO"> Soltero (A) <br>
+            <input type="checkbox" name="DIVORCIADO"> Divorciado (A) <br>
+            <input type="checkbox" name="VIUDO"> Viudo (A) <br>
+        <br> <br>
+
+    <!--  -->
+        <label>PROGRAMAS TECNICOS</label>
+        <select name="SELECT"> SELECT <br>
+            <option value="DISEÑO">DISEÑO</option>
+            <option value="ADMINISTRACION">ADMINISTRACION</option>
+            <option value="COMUNICACION">COMUNICACION</option>
+            <option value="SISTEMAS">SISTEMAS</option>
+        </select>
+        <br><br>
+
+
+        <label>COMENTARIO</label><br>
+        <textarea name="MENSAJE" cols="40" rows="5"></textarea>
+    </fieldset>
+    <br> <br>
+
+    <!--  -->
+        <button type="submit">ENVIAR</button>
+        <button type="reset">CANCELAR</button>
+    <br> <br>
+    </section>
+
+    <!--  -->
+    <footer>
+        Derechos reservados &copy;2022&#64;NOMBRE STD
+    </footer>
+
+</body>
+</html>
