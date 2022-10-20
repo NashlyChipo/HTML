@@ -1,0 +1,145 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 1359px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 779px;
+  height: 514px;
+  margin: 17px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  width: 374px;
+  margin: -20px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 400;
+  width: 570px;
+  margin: 20px auto 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  width: 148px;
+  margin: 43px auto 0;
+}
+
+.u-section-1 .u-text-4 {
+  font-weight: 400;
+  width: 570px;
+  margin: 21px auto 0;
+}
+
+.u-section-1 .u-text-5 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  width: 148px;
+  margin: 30px auto 0;
+}
+
+.u-section-1 .u-text-6 {
+  font-weight: 400;
+  width: 570px;
+  margin: 20px auto 0;
+}
+
+.u-section-1 .u-text-7 {
+  font-weight: 700;
+  font-size: 2.25rem;
+  width: 588px;
+  margin: 30px auto 0;
+}
+
+.u-section-1 .u-text-8 {
+  width: 570px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 20px auto 43px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-top: -21px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1320px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 720px;
+    height: 475px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1201px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 356px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-text-6 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-text-7 {
+    width: 540px;
+  }
+
+  .u-section-1 .u-text-8 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1069px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 224px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-6 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-7 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-8 {
+    width: 340px;
+  }
+}
